@@ -1,0 +1,24 @@
+.PorqueImg {
+  width: 100%;
+  height: 100vh;
+}
+
+.containerTablePq {
+  display: flex;
+  justify-content: center;
+  margin-left: -15%;
+  margin-top: -10px;
+}
+
+.containerTablePq .porque {
+  width: 110px;
+  height: 110px;
+  margin: 10px 40px 10px 40px;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+.containerTablePq .porque:hover {
+  cursor: pointer;
+  transform: scale(1);
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router";
 import HumorImg from "../images/humor.jpg";
 import "../style/Humor.css";
 import NavBar from "../components/NavBar";
@@ -20,35 +21,37 @@ import Aborrecido from "../images/carinhas/carinhas/aborrecido.png";
 import Satisfeito from "../images/carinhas/carinhas/satisfeito.png";
 
 function Humor() {
+  const history = useHistory("/porque")
+
   return (
     <div>
       <img src={HumorImg} alt="humor" className="humorImg" />
       <NavBar />
       <table className="containerTable">
         <tbody>
-          <tr>
-            <td><img src={Surpreso} alt="Surpreso" className="Emotions"/></td>
-            <td><img src={Alegre} alt="Alegre" className="Emotions"/></td>
-            <td><img src={Chorando} alt="Chorando" className="Emotions"/></td>
-            <td><img src={Nervoso} alt="Nervoso" className="Emotions"/></td>
+        <tr>
+            <th><img onClick={() => history.push("/porque")} src={Engracada} alt="Engracada" className="Emotions"/></th>
+            <th><img onClick={() => history.push("/porque")} src={Apaixonado} alt="Apaixonado" className="Emotions"/></th>
+            <th><img onClick={() => history.push("/porque")} src={Pensativo} alt="Pensativo" className="Emotions"/></th>
+            <th><img onClick={() => history.push("/porque")} src={Feliz} alt="Feliz" className="Emotions"/></th>
           </tr>
           <tr>
-            <td><img src={Ok} alt="Ok" className="Emotions"/></td>
-            <td><img src={Calmo} alt="Calmo" className="Emotions"/></td>
-            <td><img src={Assustado} alt="Assustado" className="Emotions"/></td>
-            <td><img src={Triste} alt="Triste" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Surpreso} alt="Surpreso" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Alegre} alt="Alegre" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Chorando} alt="Chorando" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Nervoso} alt="Nervoso" className="Emotions"/></td>
           </tr>
           <tr>
-            <td><img src={Irritado} alt="Irritado" className="Emotions"/></td>
-            <td><img src={Divertido} alt="Divertido" className="Emotions"/></td>
-            <td><img src={Aborrecido} alt="Aborrecido" className="Emotions"/></td>
-            <td><img src={Satisfeito} alt="Satisfeito" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Ok} alt="Ok" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Calmo} alt="Calmo" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Assustado} alt="Assustado" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Triste} alt="Triste" className="Emotions"/></td>
           </tr>
           <tr>
-            <th><img src={Engracada} alt="Engracada" className="Emotions"/></th>
-            <th><img src={Apaixonado} alt="Apaixonado" className="Emotions"/></th>
-            <th><img src={Pensativo} alt="Pensativo" className="Emotions"/></th>
-            <th><img src={Feliz} alt="Feliz" className="Emotions"/></th>
+            <td><img onClick={() => history.push("/porque")} src={Irritado} alt="Irritado" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Divertido} alt="Divertido" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Aborrecido} alt="Aborrecido" className="Emotions"/></td>
+            <td><img onClick={() => history.push("/porque")} src={Satisfeito} alt="Satisfeito" className="Emotions"/></td>
           </tr>
         </tbody>
       </table>

@@ -2,31 +2,37 @@ import React from "react";
 import { Nav, NavDropdown } from "react-bootstrap";
 import { useHistory } from "react-router";
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../style/NavBar.css';
+import "../style/NavBar.css";
 
 function NavBar() {
-  const history = useHistory("/humor", "/eu-sensorial")
+  const history = useHistory("/humor", "/eu-sensorial", "/blog");
   return (
     <div>
       <section className="navBar">
         <Nav className="justify-content-end NavBarSens" activeKey="/home">
           <Nav.Item>
-            <Nav.Link href="/home" className="MenuItems">
-              SOBRE
+            <Nav.Link onClick={() => history.push("/eu-sensorial")} className="MenuItems">
+              INÍCIO
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link onClick={() => history.push("/humor")} className="MenuItems">
+            <Nav.Link
+              onClick={() => history.push("/humor")}
+              className="MenuItems"
+            >
               HUMOR
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-2" className="MenuItems">
+            <Nav.Link onClick={() => history.push("/porque")} className="MenuItems">
               POR QUE...
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link onClick={() => history.push("/eu-sensorial")} className="MenuItems">
+            <Nav.Link
+              onClick={() => history.push("/blog")}
+              className="MenuItems"
+            >
               BLOG
             </Nav.Link>
           </Nav.Item>
@@ -36,6 +42,11 @@ function NavBar() {
               id="basic-nav-dropdown"
               className="MenuItems"
             >
+              <NavDropdown.Item
+                className="DropdownItems"
+              >
+                <span>Sobre</span>
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1" className="DropdownItems">
                 <span>Relatório</span>
               </NavDropdown.Item>
@@ -46,7 +57,7 @@ function NavBar() {
                 Nossos Especialistas
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#contact" className="DropdownItems">
+              <NavDropdown.Item onClick={() => history.push("#contact")} className="DropdownItems">
                 Contatos
               </NavDropdown.Item>
             </NavDropdown>

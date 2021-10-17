@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09621a08.chunk.css",
+    "main.js": "/static/js/main.eb7d8c94.chunk.js",
+    "main.js.map": "/static/js/main.eb7d8c94.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f7966c03.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f7966c03.js.map",
+    "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
+    "static/js/2.ab058f8c.chunk.js": "/static/js/2.ab058f8c.chunk.js",
+    "static/js/2.ab058f8c.chunk.js.map": "/static/js/2.ab058f8c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.09621a08.chunk.css.map": "/static/css/main.09621a08.chunk.css.map",
+    "static/js/2.ab058f8c.chunk.js.LICENSE.txt": "/static/js/2.ab058f8c.chunk.js.LICENSE.txt",
+    "static/media/EuSensorialSite.58d81dbe.jpg": "/static/media/EuSensorialSite.58d81dbe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7966c03.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.ab058f8c.chunk.js",
+    "static/css/main.09621a08.chunk.css",
+    "static/js/main.eb7d8c94.chunk.js"
+  ]
+}

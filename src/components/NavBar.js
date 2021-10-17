@@ -1,9 +1,11 @@
 import React from "react";
 import { Nav, NavDropdown } from "react-bootstrap";
+import { useHistory } from "react-router";
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../style/NavBar.css';
 
 function NavBar() {
+  const history = useHistory("/humor", "/eu-sensorial")
   return (
     <div>
       <section className="navBar">
@@ -14,7 +16,7 @@ function NavBar() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-1" className="MenuItems">
+            <Nav.Link onClick={() => history.push("/humor")} className="MenuItems">
               HUMOR
             </Nav.Link>
           </Nav.Item>
@@ -24,7 +26,7 @@ function NavBar() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-2" className="MenuItems">
+            <Nav.Link onClick={() => history.push("/eu-sensorial")} className="MenuItems">
               BLOG
             </Nav.Link>
           </Nav.Item>

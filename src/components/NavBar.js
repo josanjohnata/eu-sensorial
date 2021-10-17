@@ -43,6 +43,7 @@ function NavBar() {
               className="MenuItems"
             >
               <NavDropdown.Item
+                onClick={() => history.push("/sobre")}
                 className="DropdownItems"
               >
                 <span>Sobre</span>

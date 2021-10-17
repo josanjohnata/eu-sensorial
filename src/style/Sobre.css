@@ -1,0 +1,14 @@
+.sobreImg {
+  background: #000 url("../images/sobre.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15px;
+}
+
+.sobreItem {
+  margin-bottom: 30%;
+  margin-left: 90%;
+  z-index: 9999px;
+}

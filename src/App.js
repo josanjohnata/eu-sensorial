@@ -1,9 +1,12 @@
-import Home from './pages/Home';
+import Home from "./pages/Home";
+import { Route, Switch } from 'react-router';
 
 function App() {
   return (
     <div>
-      <Home />
+      <Switch>
+        <Route exact path="/eu-sensorial" component={Home} />
+      </Switch>
     </div>
   );
 }

@@ -1,7 +1,11 @@
 .blogImg2 {
   background: #000 url("../images/Blog.jpg");
+  background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover;
   padding-top: 15px;
 }
 

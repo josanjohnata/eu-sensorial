@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eu-sensorial/static/css/main.76aad740.chunk.css",
+    "main.css": "/eu-sensorial/static/css/main.541fafb6.chunk.css",
     "main.js": "/eu-sensorial/static/js/main.a15aac1a.chunk.js",
     "main.js.map": "/eu-sensorial/static/js/main.a15aac1a.chunk.js.map",
     "runtime-main.js": "/eu-sensorial/static/js/runtime-main.67e5e217.js",
@@ -10,7 +10,7 @@
     "static/js/2.d4535c16.chunk.js.map": "/eu-sensorial/static/js/2.d4535c16.chunk.js.map",
     "index.html": "/eu-sensorial/index.html",
     "static/css/2.c1256375.chunk.css.map": "/eu-sensorial/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.76aad740.chunk.css.map": "/eu-sensorial/static/css/main.76aad740.chunk.css.map",
+    "static/css/main.541fafb6.chunk.css.map": "/eu-sensorial/static/css/main.541fafb6.chunk.css.map",
     "static/js/2.d4535c16.chunk.js.LICENSE.txt": "/eu-sensorial/static/js/2.d4535c16.chunk.js.LICENSE.txt",
     "static/media/Blog.css": "/eu-sensorial/static/media/Blog.854a9b7a.jpg",
     "static/media/EuSensorialSite.58d81dbe.jpg": "/eu-sensorial/static/media/EuSensorialSite.58d81dbe.jpg",
@@ -56,7 +56,7 @@
     "static/js/runtime-main.67e5e217.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.d4535c16.chunk.js",
-    "static/css/main.76aad740.chunk.css",
+    "static/css/main.541fafb6.chunk.css",
     "static/js/main.a15aac1a.chunk.js"
   ]
 }

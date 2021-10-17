@@ -44,7 +44,7 @@ function NavBar() {
                 Nossos Especialistas
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4" className="DropdownItems">
+              <NavDropdown.Item href="#contact" className="DropdownItems">
                 Contatos
               </NavDropdown.Item>
             </NavDropdown>

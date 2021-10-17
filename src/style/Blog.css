@@ -1,12 +1,11 @@
-.sobreImg {
-  background: #000 url("../images/sobre.jpg");
+.blogImg2 {
+  background: #000 url("../images/Blog.jpg");
   width: 100%;
   height: 100vh;
   padding-top: 15px;
 }
 
-.sobreItem {
+.blogItem2 {
   margin-bottom: 30%;
   margin-left: 90%;
-  z-index: 9999px;
 }

@@ -1,12 +1,11 @@
-.sobreImg {
-  background: #000 url("../images/sobre.jpg");
+.ContatosImg {
+  background: #000 url("../images/contato.jpg");
   width: 100%;
   height: 100vh;
   padding-top: 15px;
 }
 
-.sobreItem {
+.ContatosItem {
   margin-bottom: 30%;
   margin-left: 90%;
-  z-index: 9999px;
 }

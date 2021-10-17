@@ -1,5 +1,4 @@
 import React from "react";
-// import SobreImg from "../images/sobre.jpg";
 import "../style/Sobre.css";
 import { Nav } from "react-bootstrap";
 import { useHistory } from "react-router";
@@ -9,7 +8,6 @@ function Sobre() {
 
   return (
     <div className="sobreImg">
-      {/* <img src={SobreImg} alt="Sobre" className="sobreImg" /> */}
       <Nav.Link
         onClick={() => history.push("/eu-sensorial")}
         className="MenuItems sobreItem"

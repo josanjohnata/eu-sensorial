@@ -5,7 +5,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/NavBar.css";
 
 function NavBar() {
-  const history = useHistory("/humor", "/eu-sensorial", "/blog");
+  const history = useHistory(
+    "/humor",
+    "/eu-sensorial",
+    "/blog",
+    "/contatos",
+    "/nossos-especialistas",
+    "/relatorios",
+    "/como-estou"
+    );
   return (
     <div>
       <section className="navBar">
@@ -48,17 +56,17 @@ function NavBar() {
               >
                 <span>Sobre</span>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1" className="DropdownItems">
+              <NavDropdown.Item onClick={() => history.push("/relatorios")} className="DropdownItems">
                 <span>Relatório</span>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" className="DropdownItems">
+              <NavDropdown.Item onClick={() => history.push("/como-estou")} className="DropdownItems">
                 Como Estou?
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" className="DropdownItems">
+              <NavDropdown.Item onClick={() => history.push("/nossos-especialistas")} className="DropdownItems">
                 Nossos Especialistas
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item onClick={() => history.push("#contact")} className="DropdownItems">
+              <NavDropdown.Item onClick={() => history.push("/contatos")} className="DropdownItems">
                 Contatos
               </NavDropdown.Item>
             </NavDropdown>

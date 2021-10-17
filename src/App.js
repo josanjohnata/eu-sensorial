@@ -1,6 +1,8 @@
 import Home from "./pages/Home";
 import { Route, Switch } from 'react-router';
 
+// teste para deploy
+
 function App() {
   return (
     <div>
